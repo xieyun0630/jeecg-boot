@@ -14,7 +14,7 @@ spring:
         # 设置 账号数据源配置
         product:
           driver-class-name: com.mysql.cj.jdbc.Driver
-          url: jdbc:mysql://127.0.0.1:3306/jeecg_product?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useSSL=false
+          url: jdbc:mysql://47.108.30.85:3306/jeecg_product?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useSSL=false
           username: root
           password: root
           schema: classpath:sql/schema-product.sql
