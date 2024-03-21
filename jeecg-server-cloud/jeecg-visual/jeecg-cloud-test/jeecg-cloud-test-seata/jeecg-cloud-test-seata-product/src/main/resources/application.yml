@@ -16,7 +16,7 @@ spring:
           driver-class-name: com.mysql.cj.jdbc.Driver
           url: jdbc:mysql://47.108.30.85:3306/jeecg_product?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useSSL=false
           username: root
-          password: root
+          password: 13541173359
           schema: classpath:sql/schema-product.sql
 seata:
   enable-auto-data-source-proxy: false

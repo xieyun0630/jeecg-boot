@@ -1,6 +1,6 @@
-FROM mysql:8.0.19
+FROM mysql:8.0.27
 
-MAINTAINER jeecgos@163.com
+MAINTAINER xingyun.xie@huamod.com
 
 ENV TZ=Asia/Shanghai
 
