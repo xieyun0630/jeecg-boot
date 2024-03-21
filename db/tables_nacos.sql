@@ -6,7 +6,7 @@ use `nacos`;
  Source Server         : mysql5.7
  Source Server Type    : MySQL
  Source Server Version : 50738
- Source Host           : 47.108.30.85:3306
+ Source Host           : jeecg-boot-mysql:3306
  Source Schema         : nacos-os
 
  Target Server Type    : MySQL
