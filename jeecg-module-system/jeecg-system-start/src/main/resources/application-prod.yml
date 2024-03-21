@@ -258,7 +258,7 @@ jeecg:
     logRetentionDays: 30
   #分布式锁配置
   redisson:
-    address: 47.108.30.85:6379
+    address: jeecg-boot-redis:6379
     password:
     type: STANDALONE
     enabled: true
