@@ -25,7 +25,7 @@ public class SysUserTest {
     /**
      * 测试地址：实际使用时替换成你自己的地址
      */
-    private final String BASE_URL = "http://localhost:8080/jeecg-boot/sys/user/";
+    private final String BASE_URL = "http://localhost:2101/jeecg-boot/sys/user/";
     //测试：用户名和密码
     private final String USERNAME = "admin";
     private final String PASSWORD = "123456";

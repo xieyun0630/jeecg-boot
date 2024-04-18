@@ -4,7 +4,7 @@ services:
     build:
       context: ../db
     environment:
-      MYSQL_ROOT_password: 13541173359
+      MYSQL_ROOT_password: a9b4e21d0018f9f3
       MYSQL_ROOT_HOST: '%'
       TZ: Asia/Shanghai
     restart: always
