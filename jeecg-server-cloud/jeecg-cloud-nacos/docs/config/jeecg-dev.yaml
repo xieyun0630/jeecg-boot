@@ -33,7 +33,7 @@ spring:
   redis:
     database: 0
     host: jeecg-boot-redis
-    password:
+    password: huamod!@123
     port: 6379
   rabbitmq:
     host: jeecg-boot-rabbitmq
