@@ -169,7 +169,7 @@ spring:
   #redis 配置
   redis:
     database: 0
-    host: 192.168.1.199
+    host: jeecg-boot-redis
     port: 6379
     password: huamod!@123
 #mybatis plus 设置
