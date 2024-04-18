@@ -1,16 +1,9 @@
 FROM  openjdk:8-jre
-
-MAINTAINER jeecgos@163.com
-
+# author
+MAINTAINER xingyun.xie@huamod.com
 RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
-
-#RUN mkdir -p /jeecg-boot/config/jeecg/
-
 WORKDIR /jeecg-boot
-
 EXPOSE 2101
-
-#ADD ./src/main/resources/jeecg ./config/jeecg
 ADD ./target/jeecg-system-start-3.6.2.jar ./
-
-CMD sleep 60;java -Djava.security.egd=file:/dev/./urandom -jar jeecg-system-start-3.6.2.jar
+# 启动认证服务
+ENTRYPOINT ["java","-jar","-Dserver.port=9103","-Dspring.profiles.active=test","jeecg-system-start-3.6.2.jar"]
